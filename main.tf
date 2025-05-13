@@ -1,9 +1,3 @@
-# Service account
-/* resource "google_service_account" "default" {
-  account_id   = "01F10B-AA32C6-1B63E6"
-  display_name = "Custom SA for VM Instance"
-}
-*/
 
 provider "google" {
   project     = var.project
