@@ -3,4 +3,5 @@
 .terraform/
 
 terraform.tfvars
-service-accounts/*.json
+#service-accounts/*.json
+service-accounts/*
