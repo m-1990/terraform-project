@@ -49,7 +49,9 @@ Store values in ` terraform.tfvars `
 
 Setup provider and resources in ` main.tf`
 
-** Deployment **
+--- 
+
+### Deployment
 Initialize Terraform and apply the configuration:
 
 ` terraform init `
@@ -57,7 +59,7 @@ Initialize Terraform and apply the configuration:
 
 Terraform will prompt you to confirm. Type yes to proceed.
 
-** SSH Access (Optional) **
+**SSH Access (Optional)**
 Generate a key pair to access your VM:
 
 ` ssh-keygen -t rsa -f ~/.ssh/my-gcp-key -C "your-username" -N "" `
@@ -68,18 +70,20 @@ Add the public key path in your main.tf file:
   ssh-keys = "your-username:${file("~/.ssh/my-gcp-key.pub")}"
 }`
 
-** Clean Up**
+### Clean Up
 To destroy the VM and related resources:
 
 
 `terraform destroy`
 
-** Learn More**
+--- 
+
+**Learn More**
 Check out the full tutorial on Medium:
 https://medium.com/@maham1530/spin-up-a-virtual-machine-on-google-cloud-with-terraform-a-complete-guide-e34d5d658b13
 
-** Contributing **
+**Contributing**
 Pull requests are welcome. For major changes, please open an issue first to discuss.
 
-** License **
+**License**
 This project is open-source and available under the MIT License.
