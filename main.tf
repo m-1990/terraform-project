@@ -61,7 +61,16 @@ resource "google_compute_instance" "default" {
 
   network_interface {
     network = "default"
+  
+
+    access_config {
+      # Empty block means ephemeral external IP will be assigned
+    }
+  }
+  metadata = {
+    ssh-keys = "maham-bhatti:${file("~/.ssh/my-gcp-key.pub")}"
   }
 
 }
+
 
