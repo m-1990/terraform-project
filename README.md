@@ -21,13 +21,13 @@ Before you get started, ensure you have the following installed:
 ## Folder Structure
 
 `
-terraform-project/
-├── main.tf
-├── variables.tf
-├── terraform.tfvars
-├── .gitignore
-└── service-account/
-└── your-service-account-key.json
+terraform-project/  
+--- main.tf  
+--- variables.tf  
+--- terraform.tfvars  
+--- .gitignore  
+--- service-account/  
+---- your-service-account-key.json
 `
 
 ---
