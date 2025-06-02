@@ -1,5 +1,13 @@
 # Spin Up a VM on Google Cloud with Terraform
 
+# Table of contents
+- [Spin Up a VM on Google Cloud with Terraform](#spin-up-a-vm-on-google-cloud-with-terraform)
+  * [Prerequisites](#prerequisites)
+  * [Setup & Authentication](#setup---authentication)
+  * [Deployment](#deployment)
+    + [Clean Up](#clean-up)
+
+
 This repository contains all the Terraform code and configuration files used in the [Medium tutorial](https://medium.com/your-article-link) to spin up a virtual machine (VM) on Google Cloud Platform (GCP).
 
 > Perfect for beginners looking to get hands-on with Terraform and GCP infrastructure.
